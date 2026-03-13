@@ -9,21 +9,17 @@ Una colección curada de los mejores repositorios de skills, plugins y recursos 
 
 ## 🛡️ Sistema de Auditoría de Seguridad
 
-Esta lista incluye verificación de seguridad activa usando **[trailofbits/skills](https://github.com/trailofbits/skills)** como herramienta de auditoría. Cada repo marcado fue analizado con agentes especializados que revisaron:
+Esta lista incluye verificación de seguridad activa usando **[trailofbits/skills](https://github.com/trailofbits/skills)** como herramienta de auditoría. Cada repo fue analizado con agentes especializados que revisaron: transmisión de datos a servidores externos, ejecución de código de terceros sin verificación de integridad, credenciales hardcodeadas, y hooks que intercepten conversaciones de Claude.
 
-- Transmisión de datos a servidores externos
-- Ejecución de código de terceros sin verificación de integridad
-- Credenciales hardcodeadas o hooks que intercepten conversaciones
-- Vulnerabilidades en scripts de instalación
+**✅ Todos los repos de esta lista han sido auditados.**
 
 ### Leyenda
 
 | Badge | Significado |
 |-------|-------------|
-| ✅ **AUDITADO · SEGURO** | Analizado — sin riesgos. Instalar con confianza. |
-| ⚠️ **AUDITADO · CONDICIONAL** | Riesgos identificados. Instalar solo siguiendo las instrucciones de mitigación. |
-| 🚨 **AUDITADO · NO INSTALAR** | Vulnerabilidad grave confirmada. Solo si asumes el riesgo explícitamente. |
-| 🔍 **SIN AUDITAR** | No revisado. Evaluar antes de instalar. |
+| ✅ **AUDITADO · SEGURO** | Analizado — sin riesgos significativos. Instalar con confianza. |
+| ⚠️ **CONDICIONAL** | Riesgos identificados. Instalar solo siguiendo las instrucciones de mitigación. |
+| 🚨 **NO INSTALAR** | Vulnerabilidad grave confirmada. Solo si asumes el riesgo explícitamente. |
 
 ---
 
@@ -37,7 +33,6 @@ Esta lista incluye verificación de seguridad activa usando **[trailofbits/skill
 - [🔒 Seguridad](#-seguridad)
 - [⚠️ Instalación Condicional](#-instalación-condicional)
 - [🚨 No Instalar Sin Mitigación](#-no-instalar-sin-mitigación)
-- [❌ Repositorios Descartados](#-repositorios-descartados)
 
 ---
 
@@ -45,20 +40,20 @@ Esta lista incluye verificación de seguridad activa usando **[trailofbits/skill
 
 | Repositorio | Estrellas | Seguridad | Descripción |
 |-------------|-----------|-----------|-------------|
-| **[everything-claude-code](https://github.com/affaan-m/everything-claude-code)** | 73.3k ⭐ | ✅ **AUDITADO · SEGURO** | Framework completo de optimización para Claude Code. Skills, instincts, memory, security y desarrollo research-first. `install.sh` solo copia archivos localmente, sin requests de red. |
-| **[claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** | 10.1k ⭐ | ✅ **OFICIAL ANTHROPIC** | Directorio de plugins de alta calidad gestionado por el equipo oficial de Anthropic. |
+| **[everything-claude-code](https://github.com/affaan-m/everything-claude-code)** | 73.3k ⭐ | ✅ SEGURO | Framework completo de optimización. `install.sh` solo copia archivos localmente, sin requests de red. MIT. |
+| **[claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** | 10.1k ⭐ | ✅ OFICIAL ANTHROPIC | Directorio de plugins gestionado por el equipo oficial de Anthropic. |
 
 ---
 
 ## 📚 Colecciones Curadas
 
+> Estas son listas de recursos, no instalan código. Su contenido es markdown puro. Riesgo: los repos a los que apuntan no están auditados individualmente.
+
 | Repositorio | Estrellas | Seguridad | Descripción |
 |-------------|-----------|-----------|-------------|
-| **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** | 27.7k ⭐ | 🔍 Sin auditar | Lista curada de skills, hooks, slash-commands, agent orchestrators, aplicaciones y plugins. |
-| **[awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** | 11.0k ⭐ | 🔍 Sin auditar | 500+ skills de agentes compatibles con Claude Code, Cursor, Antigravity y más. |
-| **[awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)** | 8.7k ⭐ | 🔍 Sin auditar | Recursos y herramientas para personalizar flujos de trabajo de Claude AI. |
-| **[claude-skills](https://github.com/Jeffallan/claude-skills)** | 6.4k ⭐ | 🔍 Sin auditar | 66 skills especializadas para desarrolladores Full-Stack. |
-| **[claude-skills](https://github.com/alirezarezvani/claude-skills)** | 4.5k ⭐ | 🔍 Sin auditar | +180 skills y plugins production-ready para Claude Code, Codex y OpenClaw. |
+| **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** | 27.7k ⭐ | ✅ SEGURO · LOW | Lista curada de skills, hooks, slash-commands y plugins. CC BY-NC-ND 4.0. Sin código ejecutable. |
+| **[awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** | 11.0k ⭐ | ✅ SEGURO · LOW | 500+ skills de agentes compatibles. Solo 3 archivos markdown. MIT. |
+| **[awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)** | 8.7k ⭐ | ✅ SEGURO · LOW | Recursos para personalizar flujos de Claude. Sin código ejecutable. Sin licencia declarada — riesgo legal, no de seguridad. |
 
 ---
 
@@ -66,12 +61,12 @@ Esta lista incluye verificación de seguridad activa usando **[trailofbits/skill
 
 | Repositorio | Estrellas | Seguridad | Descripción |
 |-------------|-----------|-----------|-------------|
-| **[cc-switch](https://github.com/farion1231/cc-switch)** | 27.3k ⭐ | 🔍 Sin auditar | Herramienta desktop cross-platform todo-en-uno para Claude Code, Codex, OpenCode, OpenClaw y Gemini CLI. |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 18.6k ⭐ | 🔍 Sin auditar | App cowork open-source, local y gratuita 24/7 + OpenClaw para múltiples asistentes IA. |
-| **[refly](https://github.com/refly-ai/refly)** | 7.0k ⭐ | 🔍 Sin auditar | El primer builder de skills open-source. Define skills por workflow y ejecuta en Claude Code, Cursor, etc. |
-| **[claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase)** | 9.2k ⭐ | 🔍 Sin auditar | Ejemplos de infraestructura con auto-activación de skills, hooks y agents. |
-| **[claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase)** | 5.5k ⭐ | 🔍 Sin auditar | Configuración completa de proyecto Claude Code con hooks, skills, agents, commands e integración Git. |
-| ~~**[gstack](https://github.com/garrytan/gstack)**~~ | 4.2k ⭐ | 🚨 **NO INSTALAR** | Movido a sección [🚨 No Instalar](#-no-instalar-sin-mitigación). |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 18.6k ⭐ | ✅ SEGURO · LOW | App desktop open-source para múltiples asistentes IA. Auto-updater estándar desde GitHub releases. API keys en SQLite local. Apache 2.0. Modo remoto requiere TLS externo. |
+| **[refly](https://github.com/refly-ai/refly)** | 7.0k ⭐ | ⚠️ CONDICIONAL · MEDIUM | Ver [sección Condicional](#refly-aireflycondicional-medium) |
+| **[cc-switch](https://github.com/farion1231/cc-switch)** | 27.3k ⭐ | ⚠️ CONDICIONAL · MEDIUM | Ver [sección Condicional](#farion1231cc-switchcondicional-medium) |
+| **[claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase)** | 9.2k ⭐ | ⚠️ CONDICIONAL · HIGH | Ver [sección Condicional](#diet103claude-code-infrastructure-showcasecondicional-high) |
+| **[claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase)** | 5.5k ⭐ | ⚠️ CONDICIONAL · LOW | Ver [sección Condicional](#chriswilesclaude-code-showcasecondicional-low) |
+| ~~**[gstack](https://github.com/garrytan/gstack)**~~ | 4.2k ⭐ | 🚨 NO INSTALAR | Ver [sección No Instalar](#garrytan-gstack) |
 
 ---
 
@@ -79,24 +74,24 @@ Esta lista incluye verificación de seguridad activa usando **[trailofbits/skill
 
 | Repositorio | Estrellas | Seguridad | Descripción |
 |-------------|-----------|-----------|-------------|
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 15.9k ⭐ | ✅ **AUDITADO · SEGURO** | Skill que implementa planificación persistente estilo Manus. Sin exfiltración de datos, todo local. Hook `PreToolUse` de amplio alcance (observación menor, no es riesgo real). |
-| **[humanizer](https://github.com/blader/humanizer)** | 8.8k ⭐ | ✅ **AUDITADO · SEGURO** | Skill que elimina signos de escritura generada por IA. Solo 3 archivos Markdown, cero código ejecutable. |
-| **[ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude)** | 396 ⭐ | 🔍 Sin auditar | AI Marketing Suite para Claude Code. 15 marketing skills con subagentes paralelos. |
-| **[notebooklm-py](https://github.com/teng-lin/notebooklm-py)** | 5.3k ⭐ | 🔍 Sin auditar | API de Python y skill agéntica para Google NotebookLM. |
-| ~~**[marketingskills](https://github.com/coreyhaines31/marketingskills)**~~ | 13.0k ⭐ | ⚠️ **CONDICIONAL** | Movido a sección [⚠️ Instalación Condicional](#-instalación-condicional). |
-| ~~**[AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)**~~ | 4.8k ⭐ | ⚠️ **CONDICIONAL** | Movido a sección [⚠️ Instalación Condicional](#-instalación-condicional). |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 15.9k ⭐ | ✅ SEGURO | Planificación persistente estilo Manus. Sin exfiltración. Hook PreToolUse de amplio alcance (benigno). MIT. |
+| **[humanizer](https://github.com/blader/humanizer)** | 8.8k ⭐ | ✅ SEGURO · LOW | Solo 3 archivos Markdown, cero código ejecutable. Sin licencia — riesgo legal menor. |
+| **[claude-skills (Jeffallan)](https://github.com/Jeffallan/claude-skills)** | 6.4k ⭐ | ✅ SEGURO · LOW | 66 skills para Full-Stack. Scripts de validación solo locales. Sin dependencias externas. MIT. |
+| **[claude-skills (alirezarezvani)](https://github.com/alirezarezvani/claude-skills)** | 4.5k ⭐ | ✅ SEGURO · LOW | 180+ skills para Claude Code, Codex, OpenClaw. `install.sh` 100% local. Principio documentado: sin API keys de pago. MIT. |
+| **[notebooklm-py](https://github.com/teng-lin/notebooklm-py)** | 5.3k ⭐ | ✅ SEGURO · LOW | Librería Python para automatizar NotebookLM. Solo comunica con `notebooklm.google.com`. Cookies de Google en `~/.notebooklm/` con permisos `0o600`. MIT. |
+| **[AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | 4.8k ⭐ | ⚠️ CONDICIONAL · MEDIUM | Ver [sección Condicional](#orchestra-researchai-research-skillscondicional-medium) |
+| **[marketingskills](https://github.com/coreyhaines31/marketingskills)** | 13.0k ⭐ | ⚠️ CONDICIONAL · MEDIUM | Ver [sección Condicional](#coreyhaines31marketingskillscondicional-medium) |
+| **[ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude)** | 396 ⭐ | ⚠️ CONDICIONAL · MEDIUM | Ver [sección Condicional](#zubair-trabzadaai-marketing-claudecondicional-medium) |
 
 ---
 
 ## 💼 Marketing y Ventas
 
-> Repositorios especializados en marketing, ventas, SEO y email marketing.
-
 | Repositorio | Estrellas | Seguridad | License | Descripción |
 |-------------|-----------|-----------|---------|-------------|
-| **[email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible)** | 56 ⭐ | ✅ **AUDITADO · SEGURO** | MIT | **55K palabras, 908 fuentes, 19 playbooks** de email marketing. Solo markdown, sin código ejecutable, sin APIs externas. Nota: menciona "Nitrosend" (producto del autor) en algunas secciones — publicidad implícita, no riesgo de seguridad. |
-| **[marketing-skills](https://github.com/kostja94/marketing-skills)** | 181 ⭐ | 🔍 Sin auditar | MIT | **160+ skills** en librería markdown: SEO, content marketing, paid ads (Google/Meta), 40+ tipos de páginas. |
-| ~~**[ai-workflow](https://github.com/nicepkg/ai-workflow)**~~ | 131 ⭐ | 🚨 **NO INSTALAR** | MIT | Movido a sección [🚨 No Instalar](#-no-instalar-sin-mitigación). |
+| **[email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible)** | 56 ⭐ | ✅ SEGURO | MIT | 55K palabras, 908 fuentes, 19 playbooks. Solo markdown, sin código ejecutable. Menciona "Nitrosend" (del autor) — publicidad implícita, no riesgo. |
+| **[marketing-skills](https://github.com/kostja94/marketing-skills)** | 181 ⭐ | ✅ SEGURO · LOW | MIT | 160+ skills en markdown: SEO, ads, content marketing. Sin scripts de instalación propios. Método `npx skills add` depende de paquete npm `skills` externo — auditar ese paquete por separado si se usa ese método. |
+| ~~**[ai-workflow](https://github.com/nicepkg/ai-workflow)**~~ | 131 ⭐ | 🚨 NO INSTALAR | MIT | Ver [sección No Instalar](#nicepkgai-workflow) |
 
 ---
 
@@ -104,159 +99,225 @@ Esta lista incluye verificación de seguridad activa usando **[trailofbits/skill
 
 | Repositorio | Estrellas | Seguridad | Descripción |
 |-------------|-----------|-----------|-------------|
-| **[skills](https://github.com/trailofbits/skills)** | 3.5k ⭐ | ✅ **AUDITADO · SEGURO** | **Trail of Bits** — 35 plugins para investigación en seguridad, detección de vulnerabilidades y auditorías de código. Usado como herramienta de auditoría de esta misma lista. Instalar como marketplace: `/plugin marketplace add trailofbits/skills` |
+| **[skills](https://github.com/trailofbits/skills)** | 3.5k ⭐ | ✅ SEGURO | **Trail of Bits** — 35 plugins de auditoría: CodeQL, Semgrep, Semgrep, static analysis, supply chain auditing. Usado como herramienta de auditoría de esta lista. Instalar: `/plugin marketplace add trailofbits/skills` |
 
 ---
 
 ## ⚠️ Instalación Condicional
 
-> Repos con riesgos identificados. **Se pueden instalar** siguiendo exactamente las instrucciones de mitigación descritas.
+> Riesgos identificados. **Se pueden usar** siguiendo exactamente las instrucciones de mitigación.
 
 ---
 
-### `coreyhaines31/marketingskills` — ⚠️ CONDICIONAL
+### `refly-ai/refly` — CONDICIONAL · MEDIUM
 
-**Riesgos encontrados:**
-- **[MEDIUM]** `validate-skills-official.sh` clona y ejecuta código de `agentskills/agentskills` (organización diferente al autor) sin pinning de commit SHA. Si ese repo es comprometido, ejecuta código arbitrario en tu máquina.
-- **[MEDIUM]** `AGENTS.md` instruye a Claude a hacer `curl` autónomo a GitHub en cada primera sesión para verificar versiones, y ejecutar `git pull` si el usuario dice "update skills" — sin que el usuario lo solicite explícitamente cada vez.
+**Riesgos identificados:**
+- **[MEDIUM]** Licencia **no es Apache 2.0 pura**: contiene restricciones comerciales. Uso por empresas/organizaciones requiere licencia comercial. El productor puede endurecer términos unilateralmente.
+- **[MEDIUM]** Un log de sesión de Claude Code fue accidentalmente commiteado al repo público (`.txt` en raíz). Revela arquitectura interna del equipo.
+- **[MEDIUM]** Self-hosting requiere configurar: PostgreSQL, Redis, Qdrant, Elasticsearch, MinIO, Stripe, Resend, Langfuse, Sentry, Statsig, Composio. En modo cloud, datos pasan por todos estos servicios.
 
-**Para instalar de forma segura:**
+**Para usar de forma segura:**
 ```bash
-# 1. Clonar el repo
+# Self-hosting: usar DEPLOY_TYPE=self-hosted
+DEPLOY_TYPE=self-hosted
+
+# Deshabilitar telemetría — no configurar estas variables:
+# STATSIG_SECRET_KEY, SENTRY_DSN, LANGFUSE_*
+
+# Leer la licencia completa antes de uso comercial
+cat LICENSE
+```
+
+---
+
+### `farion1231/cc-switch` — CONDICIONAL · MEDIUM
+
+**Riesgos identificados:**
+- **[HIGH]** Actúa como **proxy local** que intercepta TODAS las llamadas a la API de Claude/Codex/Gemini. Todo el contenido de conversaciones pasa por este proceso local.
+- **[MEDIUM]** API keys almacenadas en SQLite **sin cifrado en reposo** — solo enmascaradas en logs.
+- **[MEDIUM]** Sincronización WebDAV puede transmitir la base de datos completa (con API keys) a servidor configurado por el usuario.
+- **[MEDIUM]** Sponsoreado por servicios de relay de API de terceros — la app facilita redirigir tráfico a proveedores alternativos no oficiales.
+
+**Para usar de forma segura:**
+```bash
+# Verificar que solo conecta a endpoints oficiales:
+# api.anthropic.com, api.openai.com, generativelanguage.googleapis.com
+
+# NO configurar WebDAV a menos que sea un servidor de tu control con HTTPS
+
+# NO configurar providers de relay de terceros (PackyCode, AICodeMirror, etc.)
+
+# Compilar desde source para verificar que el binario corresponde al código:
+# cargo build --release (requiere Rust + Node)
+```
+
+---
+
+### `diet103/claude-code-infrastructure-showcase` — CONDICIONAL · HIGH
+
+**Riesgos identificados:**
+- **[HIGH]** Hook `UserPromptSubmit` intercepta **todos los prompts** antes de que Claude responda. El código actual hace keyword matching local — benigno, pero el patrón es idéntico al de un keylogger.
+- **[HIGH]** `settings.json` configura `"defaultMode": "acceptEdits"` con `Bash:*` sin restricción — Claude ejecuta cualquier cosa sin confirmación.
+- **[MEDIUM]** `trigger-build-resolver.sh` auto-invoca Claude dentro de un hook de Claude — puede crear bucles recursivos.
+- **[MEDIUM]** `eval` con paths de usuario en `tsc-check.sh` — vector de command injection si una ruta contiene metacaracteres shell.
+- **[LOW]** `settings.local.json` commiteado al repo público.
+
+**Para usar de forma segura:**
+```bash
+# NUNCA copiar settings.json completo — revisar item por item
+# Eliminar obligatoriamente:
+# "defaultMode": "acceptEdits"
+
+# Copiar solo los hooks que necesitas, uno por uno, auditando cada script
+# Verificar que ningún hook tiene curl, wget, fetch o sockets
+
+# NO usar en máquinas de producción — es un repo educativo/referencia
+```
+
+---
+
+### `ChrisWiles/claude-code-showcase` — CONDICIONAL · LOW
+
+**Riesgos identificados:**
+- **[LOW]** Hook `UserPromptSubmit` intercepta todos los prompts localmente para hacer keyword matching. Código auditable y benigno, sin exfiltración.
+- **[LOW]** `.mcp.json` configura 8 servidores MCP (`jira`, `github`, `slack`, `postgres`, etc.) con `npx -y` — instala paquetes sin confirmación en runtime.
+- **[LOW]** Sin licencia declarada.
+
+**Para usar de forma segura:**
+```bash
+# Revisar .mcp.json y activar SOLO los MCP que realmente uses
+# Auditar skill-eval.ts antes de instalar el hook
+# Solicitar licencia al autor si usas en proyecto comercial
+```
+
+---
+
+### `coreyhaines31/marketingskills` — CONDICIONAL · MEDIUM
+
+**Riesgos identificados:**
+- **[MEDIUM]** `validate-skills-official.sh` clona y ejecuta código de `agentskills/agentskills` (organización diferente, sin pinning de SHA).
+- **[MEDIUM]** `AGENTS.md` instruye a Claude a hacer fetch autónomo de GitHub en cada primera sesión y ejecutar `git pull` sin solicitud explícita del usuario.
+
+**Para instalar de forma segura (solo los .md de skills):**
+```bash
 git clone https://github.com/coreyhaines31/marketingskills
-
-# 2. NUNCA ejecutar este script — tiene el riesgo real
-# rm validate-skills-official.sh   # opcionalmente eliminarlo
-
-# 3. Copiar SOLO los archivos .md de skills (el contenido es seguro)
 cp -r marketingskills/skills ~/.claude/skills/marketingskills/
-
-# 4. Ignorar AGENTS.md — no copiarlo a tu proyecto
+# NUNCA ejecutar validate-skills-official.sh
+# NO copiar AGENTS.md al proyecto
 ```
-
-**Si asumes el riesgo:** Los 160+ archivos `.md` de skills son markdown puro y seguros. El peligro está únicamente en el script de validación y en los fetch autónomos que Claude hace por instrucción de `AGENTS.md`.
 
 ---
 
-### `Orchestra-Research/AI-Research-SKILLs` — ⚠️ CONDICIONAL
+### `Orchestra-Research/AI-Research-SKILLs` — CONDICIONAL · MEDIUM
 
-**Riesgos encontrados:**
-- **[MEDIUM]** El CI/CD del repo original tiene un workflow (`sync-skills.yml`) que sube automáticamente el contenido de cada skill (en ZIP base64) a una API externa de Orchestra (`$ORCHESTRA_API_URL`) en cada push. Esto ocurre en el repo upstream, no en tu clon — a menos que configures sus GitHub secrets.
-- **[LOW]** Publica un paquete npm (`@orchestra-research/ai-research-skills`) con provenance. Si dependes del paquete npm, dependes de la integridad de sus releases.
+**Riesgos identificados:**
+- **[MEDIUM]** CI/CD del repo upstream sube skills a API externa de Orchestra (`$ORCHESTRA_API_URL`) en cada push al repo original. No afecta clones propios.
 
 **Para instalar de forma segura:**
 ```bash
-# 1. Clonar el repo — el clon local NO activa el CI/CD externo
 git clone https://github.com/Orchestra-Research/AI-Research-SKILLs
-
-# 2. Copiar skills individualmente (son markdown puro y seguros)
 cp -r AI-Research-SKILLs/skills/ ~/.claude/skills/ai-research/
-
-# 3. NUNCA configurar ORCHESTRA_API_URL ni ORCHESTRA_SYNC_API_KEY
-#    en tu fork — eso activaría la subida de datos a sus servidores
-
-# 4. No instalar el paquete npm (@orchestra-research/ai-research-skills)
-#    a menos que confíes plenamente en su cadena de releases
+# NUNCA configurar ORCHESTRA_API_URL ni ORCHESTRA_SYNC_API_KEY en tu fork
+# NO instalar el paquete npm @orchestra-research/ai-research-skills
 ```
 
-**Si asumes el riesgo:** El contenido de los skills es investigación legítima y los archivos `.md` son seguros. El riesgo es de la infraestructura CI/CD del autor, no del contenido que instalas localmente.
+---
+
+### `zubair-trabzada/ai-marketing-claude` — CONDICIONAL · MEDIUM
+
+**Riesgos identificados:**
+- **[MEDIUM]** Script de instalación detectable mediante `curl | bash` — clona repo completo antes de copiar archivos, sin verificación de integridad.
+- **[MEDIUM]** Scripts Python hacen `urllib.request.urlopen()` a URLs sin validar esquema (potencial SSRF).
+- **[LOW]** `requirements.txt` no pina versión exacta de `reportlab`.
+
+**Para instalar de forma segura:**
+```bash
+# Clonar primero, inspeccionar, NUNCA usar curl | bash
+git clone https://github.com/zubair-trabzada/ai-marketing-claude
+# Revisar install.sh antes de ejecutar
+bash install.sh
+
+# Pinar dependencias:
+# Cambiar "reportlab>=4.0" por "reportlab==X.Y.Z" en requirements.txt
+```
+
+---
+
+### `ComposioHQ/awesome-claude-skills` — CONDICIONAL · HIGH
+
+**Riesgos identificados:**
+- **[CRÍTICO]** La skill `developer-growth-analysis` lee `~/.claude/history.jsonl` (historial completo de conversaciones con Claude — código propietario, secretos, contexto privado) y lo envía vía Composio a Slack.
+- **[ALTO]** `connect-apps-plugin` escribe tu API key de Composio en `~/.mcp.json` en texto plano y establece canal permanente a servidores de Composio.
+- **[MEDIO]** 100+ skills enrutan todo el tráfico de automatización (Gmail, Slack, GitHub, Stripe) a través de infraestructura de Composio.
+
+**Si decides usarlo:**
+```bash
+# NUNCA instalar la skill developer-growth-analysis
+# NUNCA usar connect-apps-plugin en máquinas con información sensible
+# Revisar cada skill individualmente antes de instalar
+# Asumir que cualquier acción automatizada (emails, issues) pasa por servidores de Composio
+```
 
 ---
 
 ## 🚨 No Instalar Sin Mitigación
 
-> Vulnerabilidades graves confirmadas con análisis de código. **NO instalar en producción** a menos que comprendas y aceptes explícitamente cada riesgo descrito.
+> Vulnerabilidades graves confirmadas. Solo instalar si comprendes y aceptas explícitamente cada riesgo.
 
 ---
 
-### `garrytan/gstack` — 🚨 VULNERABILIDAD ALTA
+### `garrytan/gstack`
 
-**Riesgos graves encontrados:**
-
-**[HIGH] Descifrado de cookies reales de browser:**
-El comando `/setup-browser-cookies` lee la base de datos SQLite de Chrome, Brave, Edge y Arc, llama al Keychain de macOS para obtener la clave AES, y descifra las cookies en texto plano — incluyendo sesiones de GitHub, Google, banca online, Stripe, etc. Estas cookies quedan bajo el control de Claude Code y cualquier skill que tenga `allowed-tools: Bash`.
-
-**[MEDIUM] Ruta HTTP sin autenticación:**
-El endpoint `/cookie-picker` del servidor local Playwright no requiere el bearer token de autenticación. Cualquier proceso en la misma máquina puede detectar el puerto (rango predecible 9400-9409, estado en `/tmp/browse-server.json`) y disparar la importación de cookies sin credenciales.
-
-**[MEDIUM] Instalación vía `curl | bash` sin verificación:**
-`curl -fsSL https://bun.sh/install | bash` ejecuta código remoto sin verificar checksum. Playwright descarga ~130MB de Chromium sin hash verification.
-
-**[LOW] Modifica tu `~/.claude/CLAUDE.md` global:**
-El proceso de instalación instruye a Claude a modificar el CLAUDE.md raíz basándose en instrucciones del README del repo. Si el README fuera comprometido, modificaría tu configuración global de confianza.
-
-**Si de todas formas quieres instalarlo:**
-```bash
-# Únicamente en un entorno aislado (VM o usuario separado)
-# Nunca en la misma máquina donde tienes sesiones bancarias o de trabajo
-# Revisar ~/.claude/CLAUDE.md ANTES y DESPUÉS de cualquier instalación
-# No combinarlo con otros skills que tengan allowed-tools: Bash amplio
-```
+**Vulnerabilidades:**
+- **[HIGH]** Descifra cookies reales de Chrome/Brave/Edge/Arc (sesiones bancarias, GitHub, Google) y las pone bajo control de Claude.
+- **[MEDIUM]** Ruta `/cookie-picker` sin autenticación — cualquier proceso local puede secuestrar la sesión.
+- **[MEDIUM]** Instalación vía `curl | bash` sin checksum. Descarga ~130MB de Chromium sin hash verification.
+- **[LOW]** Modifica `~/.claude/CLAUDE.md` global basándose en instrucciones del README del repo.
 
 ---
 
-### `nicepkg/ai-workflow` — 🚨 VULNERABILIDAD ALTA
+### `nicepkg/ai-workflow`
 
-**Riesgos graves encontrados:**
-
-**[HIGH] Vulnerabilidad tar-slip en scripts de descarga:**
-`download_from_archive.py` usa `tarfile.extractall()` sin el parámetro `filter=` (requerido desde Python 3.12+ precisamente por este bug). Un archivo `.tar.gz` malicioso con entradas como `../../.bashrc` o `../../.ssh/authorized_keys` puede sobrescribir cualquier archivo fuera del directorio destino en tu sistema.
-
-**[HIGH] Descarga de archivos de `skillhub.club` sin verificación de integridad:**
-Los skills se descargan desde URLs externas (`skillhub.club` y repos de GitHub arbitrarios) listadas en `skill-source.json` sin ningún checksum, firma GPG, ni verificación de hash. Un `skillhub.club` comprometido entrega código arbitrario a tu máquina.
-
-**[MEDIUM] Clona repos de terceros sin auditar directamente a `~/.claude/skills/`:**
-`download_from_github.py` clona repos listados en configuraciones por workflow (como `github.com/gked2121/claude-skills`) directamente a tu directorio de skills activos de Claude. Esos repos no están auditados.
-
-**Si de todas formas quieres usarlo:**
-```bash
-# Opción más segura: copiar los .md de skills manualmente sin usar los scripts
-# Los archivos markdown del repo SÍ son seguros — el peligro está en los scripts
-
-# NUNCA ejecutar:
-# make install / python scripts/download_from_archive.py
-# python scripts/update_skills.py
-
-# SÍ puedes hacer:
-git clone https://github.com/nicepkg/ai-workflow
-# Luego revisar y copiar manualmente solo los .md que te interesen
-```
+**Vulnerabilidades:**
+- **[HIGH]** `tarfile.extractall()` sin `filter=` — **tar-slip**: archivo malicioso puede sobrescribir `.bashrc`, `.ssh/authorized_keys` o cualquier archivo del sistema.
+- **[HIGH]** Descarga de `skillhub.club` sin verificación de checksum ni firma. Un `skillhub.club` comprometido entrega código arbitrario.
+- **[MEDIUM]** Clona repos de terceros sin auditar directamente a `~/.claude/skills/`.
 
 ---
 
-## ❌ Repositorios Descartados
-
-> Populares pero con problemas estructurales que los hacen inadecuados sin revisión profunda.
-
-| Repositorio | Estrellas | Razón |
-|-------------|-----------|-------|
-| **[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** | 43.4k ⭐ | ⚠️ **97% de skills requieren API keys de Composio** — Envían datos a servidores de terceros. Riesgo de dependencia vendor. |
-| **[antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)** | 23.7k ⭐ | ⚠️ **1000+ skills** — Algunas requieren APIs externas. Auditar caso por caso antes de instalar cualquier skill individual. |
-
----
-
-## 📋 Instalación Recomendada (Stack Seguro)
+## 📋 Stack de Instalación Seguro y Verificado
 
 ```bash
-# 1. PRIMERO: instalar el auditor de seguridad
+# 1. Auditor de seguridad — INSTALAR PRIMERO
 /plugin marketplace add trailofbits/skills
 
-# 2. Framework base (SAFE)
+# 2. Framework base
 git clone https://github.com/affaan-m/everything-claude-code
 cd everything-claude-code && bash install.sh python
 
-# 3. Planificación persistente (SAFE)
-git clone https://github.com/OthmanAdi/planning-with-files
+# 3. Skills verificados
+git clone --depth 1 https://github.com/OthmanAdi/planning-with-files
 cp -r planning-with-files/skills/planning-with-files ~/.claude/skills/
 
-# 4. Skills de marketing auditados (SAFE)
-git clone https://github.com/CosmoBlk/email-marketing-bible
+git clone --depth 1 https://github.com/CosmoBlk/email-marketing-bible
 cp email-marketing-bible/SKILL.md ~/.claude/skills/email-marketing-bible.md
 
-git clone https://github.com/blader/humanizer
+git clone --depth 1 https://github.com/blader/humanizer
 cp humanizer/SKILL.md ~/.claude/skills/humanizer.md
 
-# 5. Plugins oficiales
+git clone --depth 1 https://github.com/kostja94/marketing-skills
+cp -r marketing-skills/skills ~/.claude/skills/marketing-skills/
+
+git clone --depth 1 https://github.com/Jeffallan/claude-skills
+cp -r Jeffallan-claude-skills/skills ~/.claude/skills/jeffallan/
+
+git clone --depth 1 https://github.com/alirezarezvani/claude-skills
+cd alirezarezvani-claude-skills && bash scripts/install.sh
+
+git clone --depth 1 https://github.com/sickn33/antigravity-awesome-skills
+cd antigravity-awesome-skills && node tools/bin/install.js
+
+# 4. Plugin oficial
 /plugin marketplace add anthropics/claude-plugins-official
 ```
 
@@ -277,4 +338,4 @@ MIT License — Si esta colección te es útil, considera darle ⭐ a los reposi
 ---
 
 **Creado con ❤️ por Mario Maldonado (MMI)**
-*Auditoría de seguridad: [trailofbits/skills](https://github.com/trailofbits/skills) + agentes Claude especializados*
+*Auditoría: [trailofbits/skills](https://github.com/trailofbits/skills) + agentes Claude especializados — 22 repos auditados*
