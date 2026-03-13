@@ -44,6 +44,7 @@ Una colección curada de los mejores repositorios de skills, plugins y recursos 
 | Repositorio | Estrellas | Descripción |
 |-------------|-----------|-------------|
 | **[cc-switch](https://github.com/farion1231/cc-switch)** | 27.3k ⭐ | Herramienta desktop cross-platform todo-en-uno para Claude Code, Codex, OpenCode, OpenClaw y Gemini CLI. |
+| **[gstack](https://github.com/garrytan/gstack)** | 4.2k ⭐ | Setup exacto de Claude Code de Garry Tan: 6 herramientas opinativas que actúan como CEO, Engineering Manager, Release Manager y QA Engineer. |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 18.6k ⭐ | App cowork open-source, local y gratuita 24/7 + OpenClaw para múltiples asistentes IA. |
 | **[refly](https://github.com/refly-ai/refly)** | 7.0k ⭐ | El primer builder de skills open-source. Define skills por workflow y ejecuta en Claude Code, Cursor, etc. |
 | **[claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase)** | 9.2k ⭐ | Ejemplos de infraestructura con auto-activación de skills, hooks y agents. |
@@ -57,6 +58,7 @@ Una colección curada de los mejores repositorios de skills, plugins y recursos 
 |-------------|-----------|-------------|
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 15.9k ⭐ | Skill que implementa planificación persistente estilo Manus con archivos markdown. |
 | **[marketingskills](https://github.com/coreyhaines31/marketingskills)** | 13.0k ⭐ | Skills de marketing para Claude Code: CRO, copywriting, SEO, analytics y growth engineering. |
+| **[ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude)** | 396 ⭐ | AI Marketing Suite para Claude Code. 15 marketing skills con subagentes paralelos — auditoría de websites, copywriting, email sequences, campañas de ads, content calendars, inteligencia competitiva y reportes listos para clientes. |
 | **[humanizer](https://github.com/blader/humanizer)** | 8.8k ⭐ | Skill que elimina signos de escritura generada por IA en textos. |
 | **[AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | 4.8k ⭐ | Librería open-source de skills de investigación e ingeniería para cualquier modelo IA. |
 | **[notebooklm-py](https://github.com/teng-lin/notebooklm-py)** | 5.3k ⭐ | API de Python y skill agéntica para Google NotebookLM. |
