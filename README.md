@@ -13,6 +13,7 @@ Una colección curada de los mejores repositorios de skills, plugins y recursos 
 - [📚 Colecciones Curadas](#-colecciones-curadas)
 - [🛠️ Frameworks y Herramientas](#-frameworks-y-herramientas)
 - [🎯 Skills Especializadas](#-skills-especializadas)
+- [💼 Marketing y Ventas](#-marketing-y-ventas)
 - [🔒 Seguridad](#-seguridad)
 - [⚠️ Repositorios con Precaución](#-repositorios-con-precaución)
 
@@ -62,6 +63,18 @@ Una colección curada de los mejores repositorios de skills, plugins y recursos 
 | **[humanizer](https://github.com/blader/humanizer)** | 8.8k ⭐ | Skill que elimina signos de escritura generada por IA en textos. |
 | **[AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | 4.8k ⭐ | Librería open-source de skills de investigación e ingeniería para cualquier modelo IA. |
 | **[notebooklm-py](https://github.com/teng-lin/notebooklm-py)** | 5.3k ⭐ | API de Python y skill agéntica para Google NotebookLM. |
+
+---
+
+## 💼 Marketing y Ventas (Verificados ✅)
+
+> Repositorios especializados en marketing, ventas, SEO y email marketing. Todos con **MIT License** verificados.
+
+| Repositorio | Estrellas | License | Descripción |
+|-------------|-----------|---------|-------------|
+| **[marketing-skills](https://github.com/kostja94/marketing-skills)** | 181 ⭐ | ✅ MIT | **160+ skills** en librería markdown: SEO, content marketing, paid ads (Google/Meta), 40+ tipos de páginas, channels y estrategias. Compatible con Claude Code, Cursor, OpenClaw. |
+| **[ai-workflow](https://github.com/nicepkg/ai-workflow)** | 131 ⭐ | ✅ MIT | **170+ skills** pre-construidas para Claude Code, Cursor, Codex + 14 herramientas IA. Marketing, SEO, Trading, Video, PM workflows incluidos. Instalación con un comando. |
+| **[email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible)** | 56 ⭐ | ✅ MIT | **55K palabras, 908 fuentes, 19 playbooks** de email marketing. Deliverability, e-commerce, SaaS, marketing automation. Skill ultra-completo para email marketing profesional. |
 
 ---
 
